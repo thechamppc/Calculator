@@ -2,7 +2,7 @@
 
 ![Design for the project](https://raw.githubusercontent.com/codedamn-projects/calculator-clone/main/assets/desktop-design.jpg)
 
-Our challenge is to build this calculator project and get it looking as close as possible to the above design.
+Our challenge is to build a calculator app and get it looking as close as possible to the above design.
 
 It should have:
 
