@@ -1,0 +1,249 @@
+body{
+    background-image: linear-gradient(to right, #01aafc, #00f975)
+}
+
+#container{
+    height: 497px;
+    width: 351px;
+    border: 1px none #00352e;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#headerBox{
+    height: 85px;
+    width: 100%;
+    background-color: #00352e;
+}
+#calc{
+    position: absolute;
+    top:53px;
+    right: 5px;
+    color: #FAF9F6;
+    font-size: 25px;
+    opacity: 0.7;
+    font-family: "Gotham Rounded", sans-serif;
+    word-wrap:break-word;
+    display:block;
+}
+#clearAll{
+    float: left;
+    height: 80px;
+    width: 175px;
+    border: none;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+button:hover{
+    opacity: 0.7;
+}
+#delete{
+    float: left;
+    height: 80px;
+    width: 85px;
+    border: none;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#divide{
+    float: left;
+    height: 80px;
+    width: 85px;
+    border: none;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+
+#one{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#two{
+    height: 80px;
+    width: 87px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; 
+    font-weight: bold;
+    background-color: #bff5ec; 
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif; 
+}
+#three{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#multiply{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#four{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; 
+    font-weight: bold;
+    background-color: #bff5ec; 
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#five{
+    height: 80px;
+    width: 87px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; 
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#six{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; 
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;  
+}
+#addition{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#seven{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; 
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#eight{
+    height: 80px;
+    width: 87px;
+    border: none;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; 
+    font-weight: bold; 
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#nine{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-right: 3px;   
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#subtraction{
+    height: 80px;
+    width: 85px;
+    border: none;
+    float: left;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+
+#dot{
+    float: left;
+    height: 80px;
+    width: 85px;
+    border: none;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#zero{
+    float: left;
+    height: 80px;
+    width: 87px;
+    border: none;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+#equalsTo{
+    float: left;
+    height: 80px;
+    width: 173px;
+    border: none;
+    margin-bottom: 3px;
+    font-weight: bold;
+    background-color: #bff5ec;
+    font-size: medium;
+    font-family: "Gotham Rounded", sans-serif;
+}
+
